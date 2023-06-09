@@ -1,0 +1,26 @@
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+.admin-container {
+  display: flex;
+  .admin-sidebar {
+    height: 100vh;
+  }
+}
+
+.admin-container {
+  background-color: white;
+  display: flex;
+  .admin-sidebar {
+    min-height: 120vh;
+  }
+  .admin-content {
+    width: 100%;
+    .admin-header {
+      .collapse-toggle {
+        margin-right: 30px;
+      }
+    }
+
+    .admin-main {
+    }
+  }
+}
